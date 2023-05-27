@@ -1,0 +1,12 @@
+.line1 {
+    background: linear-gradient(269.97deg, #CA4365 4.18%, rgba(196, 196, 196, 0) 77.28%);
+    width: 100px;
+    height: 5px;
+}
+
+.line2 {
+    background: linear-gradient(269.97deg, #CA4365 4.18%, rgba(196, 196, 196, 0) 77.28%);
+    transform: rotate(-180deg);
+    width: 100px;
+    height: 5px;
+}
