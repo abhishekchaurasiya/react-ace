@@ -10,8 +10,8 @@ const Cart = () => {
     <div>
       <div className=' absolute right-20 top-[10px] items-center text-center '>
         <button className=' flex text-center items-center rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600
-         py-3 px-4 text-white font-bold text-lg mb-5 mt-2 shadow-[0px_2px_3px_1px_rgba(0,0,0,0.3)] outline-none gap-2'
-          onClick={() => navigate("/")}>
+         py-3 px-4 text-white font-bold text-lg mb-5 mt-2  shadow-[0px_2px_3px_1px_rgba(0,0,0,0.3)] outline-none gap-2'
+          onClick={() => navigate("/cityselection")}>
           Select City
           <span><ImLocation /></span>
         </button>
@@ -28,7 +28,7 @@ const Cart = () => {
         </div>
       </div>
 
-      <div className='bg-gray-100 flex flex-col justify-evenly px-52 py-4 absolute bottom-0 w-full'>
+      <div className='bg-gray-100 flex flex-col justify-evenly px-52 py-4 absolute bottom-0 left-0 right-0 w-full'>
         <div className='flex items-center text-center gap-x-2 mb-4'>
           <div className='w-1 h-1 bg-pink-500 rounded-full'></div>
           <p className=' text-pink-500'>We levy a 50% Advance on all our Stall sales. The rest 50% shall be credited post the event.</p>
